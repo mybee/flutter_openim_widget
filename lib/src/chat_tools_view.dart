@@ -11,7 +11,6 @@ class ChatToolsView extends StatefulWidget {
   final ToolsLayoutParams? layoutParams;
   final Function()? onTapAlbum;
   final Function()? onTapCamera;
-  final Function()? onTapVideoCall;
   final Function()? onTapLocation;
   final Function()? onTapFile;
   final Function()? onTapCarte;
@@ -19,7 +18,6 @@ class ChatToolsView extends StatefulWidget {
   final Function()? onStopVoiceInput;
   final Widget? albumIcon;
   final Widget? cameraIcon;
-  final Widget? videoCallIcon;
   final Widget? locationIcon;
   final Widget? fileIcon;
   final Widget? carteIcon;
@@ -33,7 +31,6 @@ class ChatToolsView extends StatefulWidget {
     this.layoutParams,
     this.onTapAlbum,
     this.onTapCamera,
-    this.onTapVideoCall,
     this.onTapLocation,
     this.onTapFile,
     this.onTapCarte,
@@ -41,7 +38,6 @@ class ChatToolsView extends StatefulWidget {
     this.onStopVoiceInput,
     this.albumIcon,
     this.cameraIcon,
-    this.videoCallIcon,
     this.locationIcon,
     this.fileIcon,
     this.carteIcon,
@@ -174,33 +170,6 @@ class _ChatToolsViewState extends State<ChatToolsView>
                     onTap: widget.onTapCarte,
                   ),
                 )),
-              ],
-            ),
-            Spacer(),
-            Column(
-              children: [
-                _toolsOption(ToolsItem(
-                  label: UILocalizations.videoCall,
-                  style: toolsTextStyle,
-                  image: _buildBtn(
-                    icon: widget.videoCallIcon ?? ImageUtil.toolsVideoCall(),
-                    onTap: widget.onTapVideoCall,
-                  ),
-                )),
-                _verticalSpacing,
-                // _toolsOption(ToolsItem(
-                //   label: UILocalizations.voiceInput,
-                //   style: toolsTextStyle,
-                //   image: _buildBtn(
-                //     icon: widget.voiceInputIcon ?? ImageUtil.toolsVoiceInput(),
-                //     onTap: () {
-                //       setState(() {
-                //         _enabledVoiceInput = true;
-                //         _controller.forward();
-                //       });
-                //     },
-                //   ),
-                // )),
               ],
             ),
             Spacer(),
