@@ -35,7 +35,10 @@ dependencies:
   flutter_svg: ^2.0.6
   qq_badge: ^0.0.2
   #  better_player: ^0.0.81
-  chewie: ^1.5.0
+  chewie:
+    git:
+      url: https://github.com/mybee/chewie.git
+      ref: master
   video_player: ^2.4.7
   flutter_cache_manager: ^3.3.0
   mime_type: ^1.0.0
