@@ -14,11 +14,11 @@ dependencies:
   font_awesome_flutter: ^10.2.1
   rxdart: ^0.27.5
   flutter_screenutil: ^5.5.4
-  flutter_slidable: ^2.0.0
+  flutter_slidable: ^3.0.0
   cached_network_image: ^3.2.2
   photo_view: ^0.14.0
   path_provider: ^2.0.11
-  flutter_image_compress: ^1.1.3
+  flutter_image_compress: ^2.0.3
   record: ^4.4.1
   just_audio: ^0.9.29
   lottie: ^1.4.3
@@ -32,10 +32,10 @@ dependencies:
   sprintf: ^7.0.0
   flutter_inappwebview: ^5.4.4+3
   animate_do: ^2.1.0
-  flutter_svg: ^1.1.5
+  flutter_svg: ^2.0.6
   qq_badge: ^0.0.2
   #  better_player: ^0.0.81
-  chewie: ^1.3.5
+  chewie: ^1.5.0
   video_player: ^2.4.7
   flutter_cache_manager: ^3.3.0
   mime_type: ^1.0.0
