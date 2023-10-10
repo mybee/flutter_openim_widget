@@ -213,10 +213,11 @@ class _ChatInputBoxViewState extends State<ChatInputBoxView>
                             ),
                             offstage: _leftKeyboardButton,
                           ),
-                          Offstage(
-                            child: widget.voiceRecordBar,
-                            offstage: !_leftKeyboardButton,
-                          ),
+                          // TODO: 暂时先去掉语音输入的功能
+                          // Offstage(
+                          //   child: widget.voiceRecordBar,
+                          //   offstage: !_leftKeyboardButton,
+                          // ),
                           // _keyboardInput ? _buildTextFiled() : _buildSpeakBar()
                         ],
                       ),

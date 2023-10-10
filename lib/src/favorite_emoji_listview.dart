@@ -54,7 +54,7 @@ class FavoriteEmojiListView extends StatelessWidget {
           child: Stack(
             children: [
               Center(
-                child: ImageUtil.lowMemoryNetworkImage(
+                child: ImageUtil.networkImage(
                   url: '$url?imageView2/1/w/${60.w}/h/${60.w}/rq/80',
                   width: 60.w,
                   cacheWidth: 60.w.toInt(),

@@ -126,7 +126,7 @@ class ChatAvatarView extends StatelessWidget {
       );
 
   Widget _networkImage() => lowMemory
-      ? ImageUtil.lowMemoryNetworkImage(
+      ? ImageUtil.networkImage(
           url: url!,
           width: _minSize,
           height: _minSize,

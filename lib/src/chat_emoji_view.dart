@@ -202,7 +202,7 @@ class _ChatEmojiViewState extends State<ChatEmojiView> {
             return GestureDetector(
               onTap: () => widget.onSelectedFavorite?.call(index - 1, url),
               child: Center(
-                child: ImageUtil.lowMemoryNetworkImage(
+                child: ImageUtil.networkImage(
                   url: url,
                   width: 60.w,
                   cacheWidth: 60.w.toInt(),
