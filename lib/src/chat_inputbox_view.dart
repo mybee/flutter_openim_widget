@@ -200,6 +200,7 @@ class _ChatInputBoxViewState extends State<ChatInputBoxView>
                   children: [
                     // TODO: 暂时先去掉语音输入的功能
                     // _leftKeyboardButton ? _keyboardLeftBtn() : _speakBtn(),
+                    SizedBox(width: 15.w),
                     Flexible(
                       child: Stack(
                         children: [
