@@ -198,7 +198,8 @@ class _ChatInputBoxViewState extends State<ChatInputBoxView>
                 Row(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    _leftKeyboardButton ? _keyboardLeftBtn() : _speakBtn(),
+                    // TODO: 暂时先去掉语音输入的功能
+                    // _leftKeyboardButton ? _keyboardLeftBtn() : _speakBtn(),
                     Flexible(
                       child: Stack(
                         children: [
@@ -213,7 +214,7 @@ class _ChatInputBoxViewState extends State<ChatInputBoxView>
                             ),
                             offstage: _leftKeyboardButton,
                           ),
-                          // TODO: 暂时先去掉语音输入的功能
+                          // TODO: 暂时先去掉语音输入的功能, 如果想打开, 旧的提交里找
                           // Offstage(
                           //   child: widget.voiceRecordBar,
                           //   offstage: !_leftKeyboardButton,
