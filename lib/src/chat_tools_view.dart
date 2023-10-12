@@ -139,13 +139,22 @@ class _ChatToolsViewState extends State<ChatToolsView>
                     onTap: widget.onTapAlbum,
                   ),
                 )),
+                // _verticalSpacing,
+                // _toolsOption(ToolsItem(
+                //   label: UILocalizations.file,
+                //   style: toolsTextStyle,
+                //   image: _buildBtn(
+                //     icon: widget.fileIcon ?? ImageUtil.toolsFile(),
+                //     onTap: widget.onTapFile,
+                //   ),
+                // )),
                 _verticalSpacing,
                 _toolsOption(ToolsItem(
-                  label: UILocalizations.file,
+                  label: UILocalizations.carte,
                   style: toolsTextStyle,
                   image: _buildBtn(
-                    icon: widget.fileIcon ?? ImageUtil.toolsFile(),
-                    onTap: widget.onTapFile,
+                    icon: widget.carteIcon ?? ImageUtil.toolsCarte(),
+                    onTap: widget.onTapCarte,
                   ),
                 )),
               ],
@@ -161,15 +170,15 @@ class _ChatToolsViewState extends State<ChatToolsView>
                     onTap: widget.onTapCamera,
                   ),
                 )),
-                _verticalSpacing,
-                _toolsOption(ToolsItem(
-                  label: UILocalizations.carte,
-                  style: toolsTextStyle,
-                  image: _buildBtn(
-                    icon: widget.carteIcon ?? ImageUtil.toolsCarte(),
-                    onTap: widget.onTapCarte,
-                  ),
-                )),
+                // _verticalSpacing,
+                // _toolsOption(ToolsItem(
+                //   label: UILocalizations.carte,
+                //   style: toolsTextStyle,
+                //   image: _buildBtn(
+                //     icon: widget.carteIcon ?? ImageUtil.toolsCarte(),
+                //     onTap: widget.onTapCarte,
+                //   ),
+                // )),
               ],
             ),
             Spacer(),
