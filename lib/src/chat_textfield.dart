@@ -44,7 +44,7 @@ class ChatTextField extends StatelessWidget {
       autofocus: false,
       minLines: 1,
       maxLines: 4,
-      textInputAction: TextInputAction.newline,
+      textInputAction: TextInputAction.send,
       // onSubmitted: onSubmitted,
       decoration: InputDecoration(
         border: InputBorder.none,
