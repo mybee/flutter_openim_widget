@@ -182,6 +182,7 @@ class _ChatInputBoxViewState extends State<ChatInputBoxView>
         children: [
           Container(
             padding: EdgeInsets.symmetric(vertical: 12.h),
+            margin: EdgeInsets.only(top: 10),
             decoration: BoxDecoration(
               color: widget.background ?? Color(0xFFE8F2FF),
               boxShadow: [
