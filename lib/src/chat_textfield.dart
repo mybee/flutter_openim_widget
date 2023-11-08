@@ -39,7 +39,7 @@ class ChatTextField extends StatelessWidget {
       ),
       focusNode: focusNode,
       controller: controller,
-      keyboardType: TextInputType.multiline,
+      // keyboardType: TextInputType.multiline,
       enabled: enabled,
       autofocus: false,
       minLines: 1,
