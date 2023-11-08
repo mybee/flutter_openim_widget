@@ -329,10 +329,10 @@ class _ChatInputBoxViewState extends State<ChatInputBoxView>
               controller: widget.controller,
               enabled: !_isMuted,
               inputFormatters: widget.inputFormatters,
-              // onSubmitted: (value) {
-              //   focus();
-              //   if (null != widget.onSubmitted) widget.onSubmitted!(value);
-              // },
+              onSubmitted: (value) {
+                focus();
+                if (null != widget.onSubmitted) widget.onSubmitted!(value);
+              },
             ),
             Visibility(
               visible: _isMuted,
